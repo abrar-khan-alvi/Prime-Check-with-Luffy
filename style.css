@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center; 
+}
+
+.navbar .item {
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar .item:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+.article{
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+
+
+.content {
+    max-width: 360px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.profile-picture img {
+    height: 200px; 
+    margin-top: -110px;
+    margin-left: 80px; 
+    border-radius: 50%;
+    width: 15%;
+}
+
+.cover-picture img {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+}
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.amne{
+    width: 65%;
+    border-radius: 50%;
+}
